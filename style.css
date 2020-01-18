@@ -9,10 +9,9 @@ h1 {
 	overflow: visible;
 }
 * {
+	max-width: 70%;
 	font-family:"Roboto Mono";
-	margin-left: 12%;
-	margin-right: 12%;
-	text-align: justify: ;;
+	text-align: justify;
 	text-justify: inter-word;
 }
 hr{
