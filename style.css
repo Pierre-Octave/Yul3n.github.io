@@ -10,7 +10,7 @@ h1 {
 }
 h2 {
 	font-family:"Zilla Slab";
-	font-size: 42px;
+	font-size: 1em;
 	margin-bottom: -1px;
 	overflow: visible;
 }
@@ -21,6 +21,9 @@ h2 {
 	font-family:"Noto Sans TC";
 	text-align: justify;
 	text-justify: inter-word;
+}
+p {
+	font-size: 1em;
 }
 hr{
 	border : #44475a 1px solid;
