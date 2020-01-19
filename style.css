@@ -10,7 +10,7 @@ h1 {
 }
 h2 {
 	font-family:"Zilla Slab";
-	font-size: 2em;
+	font-size: 100%;
 	margin-bottom: -1px;
 	overflow: visible;
 }
@@ -23,7 +23,7 @@ h2 {
 	text-justify: inter-word;
 }
 p {
-	font-size: 2em;
+	font-size: 100%;
 }
 hr{
 	border : #44475a 1px solid;
