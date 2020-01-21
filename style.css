@@ -10,7 +10,7 @@ h1 {
 }
 h2 {
 	font-family:"Zilla Slab";
-	font-size: 150%;
+	font-size: 1vw;
 	margin-bottom: -1px;
 	overflow: visible;
 }
@@ -23,11 +23,20 @@ h2 {
 	text-justify: inter-word;
 }
 p {
-	font-size: 100%;
+	font-size: 0.85vw;
 }
 hr{
 	border : #44475a 1px solid;
 }
 a {
 	color: #8be9fd;
+}
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+	p {
+		font-size: 175%;
+	}
+	h2 {
+		font-size: 3vw;
+	}
+
 }
